@@ -7,6 +7,13 @@ This code was adapted from  https://github.com/fullscale/elastic.js
 
 This code-base is meant to be added as sub-module to consuming applications. 
 
+Adding this as a sub-module:
+```
+cd app
+git submodule add https://github.com/biocodellc/trait-viz.git
+git commit -am "add trait-viz submodule"
+```
+
 Cloning a project using this sub-module
 ```
 git clone --recurse-submodules https://github.com/BNHM/AmphibianDiseasePortalNewInterface.git
